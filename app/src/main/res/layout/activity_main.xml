@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/roundFab"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="5dp"
+        android:scaleType="center"
+         android:src="@drawable/drawable_fab_plus_icon"
+        android:tint="#ffffff" />
+
+    <TextView
+        android:id="@+id/textViewTitleFabRound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="Round Fab Action Button"
+        android:textColor="@android:color/black" />
+
+    <com.hg.gangwar.squareFloat.HgSquareFloatButton
+        android:id="@+id/squareFab"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/drawable_fab_square_background"
+        android:contentDescription="@null"
+        android:elevation="5dp"
+        android:padding="10dp"
+        android:src="@drawable/drawable_fab_plus_icon" />
+
+    <TextView
+        android:id="@+id/textViewTitleFabSquare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="Sqaure Fab Action Button"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
